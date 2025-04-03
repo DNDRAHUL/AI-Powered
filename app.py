@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = "your_secret_key_here"  # Required for session handling
 
 # Set Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA2EMWmxFC24ww1chHcQylw6BkzzLrpA6k"
+os.environ["GOOGLE_API_KEY"] = "Google-API-KEY"
 
 # Define the Gemini agent
 agent = Agent(
